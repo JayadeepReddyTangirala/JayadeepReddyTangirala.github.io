@@ -1,58 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>My Portfolio</title>
-  <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-
-  <header>
-    <nav>
-      <ul>
-        <li><a href="#about">About Me</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
+    <nav id="navbar">
+        <ul>
+            <li><a href="#welcome-section">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
     </nav>
-  </header>
 
-  <section id="hero">
-    <h1>Hello, I'm [Your Name]</h1>
-    <p>I'm a [your title/job position], specializing in [skills].</p>
-    <a href="#projects" class="button">View My Work</a>
-  </section>
+    <section id="welcome-section">
+        <div class="hero">
+            <h1>Hi, I'm <span class="highlight">Your Name</span></h1>
+            <p>Web Developer & Designer</p>
+            <img src="profile-placeholder.jpg" alt="Profile Picture" class="profile-img">
+        </div>
+    </section>
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>
-      Write a brief introduction about yourself here. 
-      Mention your background, interests, and what excites you about your work.
-    </p>
-  </section>
+    <section id="projects" class="projects-section">
+        <h2>My Work</h2>
+        <div class="projects-grid" id="projects-container">
+            <!-- Projects will be dynamically added here -->
+        </div>
+    </section>
 
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="project">
-      <h3>Project One</h3>
-      <p>A short description of your project. What does it do? Why is it cool?</p>
-      <a href="https://github.com/yourusername/yourproject">View on GitHub</a>
-    </div>
-    <!-- Add more projects as needed -->
-  </section>
+    <section id="contact" class="contact-section">
+        <h2>Let's Work Together</h2>
+        <div class="contact-links">
+            <a href="https://github.com/yourusername" target="_blank" class="btn contact-details">
+                <i class="fab fa-github"></i> GitHub
+            </a>
+            <a href="mailto:youremail@example.com" class="btn contact-details">
+                <i class="fas fa-at"></i> Email
+            </a>
+        </div>
+        <form id="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email me at <a href="mailto:your-email@example.com">your-email@example.com</a></p>
-    <p>Connect on <a href="https://linkedin.com/in/your-profile">LinkedIn</a></p>
-    <!-- Add more social or contact links as needed -->
-  </section>
+    <footer>
+        <p>&copy; 2023 Your Name. All rights reserved.</p>
+    </footer>
 
-  <footer>
-    <p>&copy; 2025 Your Name. All rights reserved.</p>
-  </footer>
-
-  <script src="scripts.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
