@@ -3888,7 +3888,7 @@ input, select, textarea {
 	overflow: hidden;
 	border: 3px solid #fff; /* Optional border */
 	box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Optional subtle shadow */
-	margin: 250px 150px 150px 50px; /* Center the image */
+	margin: 200px 150px 150px 50px; /* Center the image */
   }
   
   .profile-headshot img {
